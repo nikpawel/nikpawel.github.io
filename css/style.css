@@ -304,7 +304,7 @@ button {
      width: 100%;
      float: left;
      background-color:#f8ca11; /*#161c1e;*/
-     height: 700px;
+     height: auto;
      padding-top: 90px;
 }
 
