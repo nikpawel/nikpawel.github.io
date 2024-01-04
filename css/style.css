@@ -220,7 +220,7 @@ button {
     float: left;
     background-color: #f8ca11;
     height: auto;
-    padding-top: 10px;
+    padding-top: 12px;
     padding-bottom: 10px;
     position: fixed;
     z-index: 01;
@@ -433,13 +433,13 @@ button {
     font-size: 40px;
     color: #161c1e;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .Banner_Text{
-    width: 90%;
+    width: 100%;
     float: left;
-    text-align: justify;
+    text-align: center;
     font-size: 15pt;
     color: #161c1e;
     font-weight: bold;
