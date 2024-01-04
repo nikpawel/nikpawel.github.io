@@ -220,8 +220,8 @@ button {
     float: left;
     background-color: #f8ca11;
     height: auto;
-    padding-top: 12px;
-    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     position: fixed;
     z-index: 01;
 }
@@ -229,7 +229,7 @@ button {
 .logo {
     width: 100%;
     float: left;
-    text-align: center;
+    text-align: left;
 }
 
 .menu_text {
@@ -248,7 +248,7 @@ button {
     padding-right: 75px;
     font-size: 18px;
     color: #ffffff;
-    padding-top: 12px;
+    padding-top: 22px;
 }
 
 .menu_text li a {
@@ -296,7 +296,7 @@ button {
 }
 
 .toggle_menu {
-    top: -3px;
+    top: 0px;
     position: relative;
     left: 15px;
 }
