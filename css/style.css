@@ -235,6 +235,7 @@ button {
 .menu_text {
     float: right;
     width: auto;
+    
 }
 
 .menu_text ul {
@@ -245,7 +246,7 @@ button {
 
 .menu_text li {
     float: left;
-    padding-right: 75px;
+    padding-right: 65px;
     font-size: 18px;
     color: #ffffff;
     padding-top: 22px;
@@ -461,7 +462,8 @@ button {
      float: left;
      background-color: #fefefe;
      height: auto;
-    margin-top: 70px;
+     margin-top: 70px;
+     margin-bottom: 20px;
 }
 .round_1 {
     width: 21%;
@@ -470,10 +472,10 @@ button {
     color: #fefefe;
     height: 70px;
     background: #f8ca11;
-    display: block;
+    display:block;
     text-align: center;
     border-radius: 60px;
-    padding-top: 12px;
+    padding-top: 2px;
     position: relative;
     top: -35px;
 }
@@ -495,6 +497,26 @@ button {
      margin-left: 0px;
 }
 
+.details_bt a{
+    width: 40%;
+    float: left;
+    font-size: 18px;
+    color: #fefefe;
+    background-color: #f8ca11;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 30%;
+}
+
+.details_bt a{ color:#fefefe; }
+.details_bt a:hover{     
+    color: #fff;
+    background: #000;
+
+}
+
 input.email-bt::placeholder {
     color: #000;
 }
@@ -505,6 +527,12 @@ input.email-bt::placeholder {
      text-align: center;
 }
 
+.images_Wertykulator{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: -1.5px;
+}
 .ride_section{
      width: 100%;
      float: left;   
