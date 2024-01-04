@@ -218,7 +218,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-color: #1a1a1a;
+    background-color: #f8ca11;
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -255,7 +255,7 @@ button {
 }
 
 .menu_text li a:hover {
-    color: #f8ca11;
+    color: #f81111;
 }
 
 .overlay {
@@ -303,24 +303,24 @@ button {
 .banner_section{
      width: 100%;
      float: left;
-     background-color: #1a1a1a;
-     height: auto;
+     background-color:#f8ca11; /*#161c1e;*/
+     height: 700px;
      padding-top: 90px;
 }
 
 .book_now {
-    width: 70%;
+    width: 80%;
     float: right;
-    background-color: #f8ca11;
+    background-color: #ffffff;
     height: auto;
     padding: 10px;
 }
-
+/* Tekst na lewej czesci banneru*/
 .book_text{
      width: 100%;
      float: left;
      font-size: 40px;
-     color: #fbfaf6;
+     color: #f81111;
      text-align: center;
 }
 .call_text{
@@ -329,6 +329,14 @@ button {
      font-size: 40px;
      color: #1a1a1a;
      text-align: center;
+}
+
+.banner_image {
+    width: 90%;
+    float: left;
+    margin-top: 150px;
+    margin-left: 0px;
+    text-align: center;
 }
 
 .image_1 {
@@ -418,6 +426,30 @@ button {
      font-weight: bold;
 }
 
+.Banner_Title{
+    width: 100%;
+    float: right;
+    text-align: center;
+    font-size: 40px;
+    color: #161c1e;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.Banner_Text{
+    width: 90%;
+    float: left;
+    text-align: justify;
+    font-size: 15pt;
+    color: #161c1e;
+    font-weight: bold;
+    line-height: 130%;
+    margin-left: 20px;
+    
+   
+    
+}
+
 .taxis_section_2 {
     width: 100%;
     float: left;
@@ -496,6 +528,7 @@ input.email-bt::placeholder {
 .ride_section_2{
      width: 100%;
      float: left;
+     padding-bottom: 30px;
 }
 
 .image_3{
@@ -575,15 +608,16 @@ input.email-bt::placeholder {
 .location_sectin {
     width: 100%;
     float: left;
-    background-image: url(../images/img-6.png);
+    background-color: #161c1e;
     height: auto;
     background-size: 100%;
+
     padding-bottom: 30px;
 }
 
 .location_main{
      width: 100%;
-     float: left;
+     float: right;
 }
 
 .download_text {
@@ -596,7 +630,7 @@ input.email-bt::placeholder {
 
 .image_7 {
     width: 90%;
-    float: left;
+    float: right;
 }
 
 .account_text {
@@ -701,8 +735,10 @@ input.email-bt::placeholder {
 
 #main_slider a.carousel-control-prev {
     position: absolute;
-    left: 50px;
-    top: 40%;
+    left: 45%;
+    
+    top: 520px;
+   
     background-color: #f8ca12;}
 }
 
@@ -719,8 +755,8 @@ input.email-bt::placeholder {
 
 #main_slider a.carousel-control-next {
     position: absolute;
-    left: 50px;
-    top: 55%;
+    left: 55%;
+    top:520px;
 }
 #main_slider .carousel-control-prev, #main_slider .carousel-control-next {
     width: 65px;
