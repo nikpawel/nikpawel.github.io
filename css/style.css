@@ -238,8 +238,9 @@ button {
 }
 
 .menu_text ul {
-    margin: -5px;
+    margin: 0px;
     padding: 0px;
+    margin-top: -10px;
 }
 
 .menu_text li {
