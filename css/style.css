@@ -456,10 +456,20 @@ button {
     line-height: 130%;
     margin-left: 0px;
     
-   
-    
 }
 
+.Call_bt a{
+    width: 40%;
+    float: left;
+    font-size: 35px;
+    color: #fefefe;
+    background-color: #f8ca11;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 30%;
+}
 .taxis_section_2 {
     width: 100%;
     float: left;
@@ -508,7 +518,7 @@ button {
 .details_bt a{
     width: 40%;
     float: left;
-    font-size: 18px;
+    font-size: 20px;
     color: #fefefe;
     background-color: #f8ca11;
     text-align: center;
@@ -668,6 +678,7 @@ input.email-bt::placeholder {
 .Locatioan_Map {
     width: 100%;
     float: left;
+
   
 }
 
