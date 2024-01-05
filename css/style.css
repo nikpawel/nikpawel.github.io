@@ -305,9 +305,17 @@ button {
 .banner_section{
      width: 100%;
      float: left;
-     background-color:#f8ca11; /*#161c1e;*/
+     background-color: #161c1e; /*#161c1e;*/
      height: auto;
      padding-top: 90px;
+}
+.Welcome_area{
+    width: 100%;
+    float: left;
+    background-color: #fefefe;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .book_now {
@@ -432,8 +440,8 @@ button {
     width: 100%;
     float: right;
     text-align: center;
-    font-size: 40px;
-    color: #161c1e;
+    font-size: 38px;
+    color: #ebebeb;
     font-weight: bold;
     margin-top: 20px;
 }
@@ -442,8 +450,8 @@ button {
     width: 100%;
     float: left;
     text-align: center;
-    font-size: 15pt;
-    color: #161c1e;
+    font-size: 14pt;
+    color: #2b3436;
     font-weight: bold;
     line-height: 130%;
     margin-left: 0px;
@@ -657,9 +665,10 @@ input.email-bt::placeholder {
     padding-left: 53px;
 }
 
-.image_7 {
-    width: 90%;
-    float: right;
+.Locatioan_Map {
+    width: 100%;
+    float: left;
+  
 }
 
 .account_text {
