@@ -597,6 +597,7 @@ input.email-bt::placeholder {
 .image_3{
      width: 100%;
      float: left;
+     object-position: top;
 }
 
 .cabe_text {
@@ -640,6 +641,7 @@ input.email-bt::placeholder {
     color: #2b3436;
     margin-top: 20px;
     text-align: right;
+    
 }
 
 .long_text_2{
@@ -649,6 +651,16 @@ input.email-bt::placeholder {
      color: #2b3436;
      margin-left: 0px;
      text-align: right;
+}
+
+.Price_List li {
+    font-size:16px;
+    list-style: square;
+    list-style-position: inside;
+    text-align: right;
+    color: #2b3436;
+    font-weight: lighter;
+    
 }
 
 .book_bt_2 a{
