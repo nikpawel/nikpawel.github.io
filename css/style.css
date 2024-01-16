@@ -39,7 +39,7 @@ html {
 body {
      color: #666666;
      font-size: 14px;
-     font-family:Times New Rom...;
+     font-family:Times New Rom... ;
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
@@ -398,7 +398,7 @@ button {
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    color: #000;!important;
+    color: #000 !important;
     width: 95%;
     height: 30px;
     font-size: 20px;
@@ -665,9 +665,11 @@ input.email-bt::placeholder {
     font-size:16px;
     list-style: square;
     list-style-position: inside;
-    text-align: right;
+    text-align: justify;
     color: #2b3436;
     font-weight: lighter;
+    text-indent: 50px;
+    
     
 }
 
@@ -831,6 +833,7 @@ input.email-bt::placeholder {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    margin-top: 80px;
 }
 td, th {
     border: 1px solid #dddddd;
