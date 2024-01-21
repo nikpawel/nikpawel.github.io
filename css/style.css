@@ -121,11 +121,12 @@ button:focus {
 
 ul,
 li,
-ol {
+ol{
      margin: 0px;
      padding: 0px;
      list-style: none;
 }
+
 
 p {
      margin: 20px;
@@ -257,6 +258,9 @@ button {
 }
 
 .menu_text li a:hover {
+    color: #f81111;
+}
+.overlay-content a:hover {
     color: #f81111;
 }
 
@@ -614,6 +618,24 @@ input.email-bt::placeholder {
      font-size: 16px;
      color: #2b3436;
      margin-left: 0px;
+}
+
+.paragraf{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 24px;
+    color: #2b3436;
+    margin-top: 20px;
+}
+.lista_reg li{
+
+    font-weight: lighter;
+    font-size: 16px;
+    color: #2b3436;
+    margin-left: 10px;
+    margin: 10px;
+    list-style-type: decimal;
 }
 .red_text{
     width: 100%;
