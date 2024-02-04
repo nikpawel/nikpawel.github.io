@@ -228,21 +228,23 @@ button {
 }
 
 .logo {
-    width: 100%;
+    width: auto;
     float: left;
     text-align: left;
 }
 
 .menu_text {
-    float: right;
+    float: left;
     width: auto;
+
     
 }
 
 .menu_text ul {
     margin: 0px;
     padding: 0px;
-    margin-top: -10px;
+    padding-top: 10px;
+
 }
 
 .menu_text li {
@@ -250,7 +252,7 @@ button {
     padding-right: 65px;
     font-size: 18px;
     color: #ffffff;
-    padding-top: 22px;
+
 }
 
 .menu_text li a {
@@ -301,9 +303,28 @@ button {
 }
 
 .toggle_menu {
-    top: 0px;
-    position: relative;
-    left: 15px;
+
+float: right;
+   
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .toggle_menu{
+        margin-top: -18.5px;
+    }
+    
+}
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    .toggle_menu{
+        margin-top: 20px;
+    }
+    
+}
+@media only screen and (max-width: 575px) {
+    .toggle_menu{
+        margin-top: 20px;
+    }
+    
 }
 
 .banner_section{
@@ -503,6 +524,7 @@ button {
      margin-top: 70px;
      margin-bottom: 20px;
 }
+
 .round_1 {
     width: 21%;
     margin: 0 auto;
@@ -518,12 +540,14 @@ button {
     top: -35px;
 }
 
-.carol_text{
+.Header_text{
      width: 100%;
+     height: 70px;
      float: left;
      text-align: center;
      color: #2b3436;
      font-size: 24px;
+     font-weight: bolder;
 }
 
 .reader_text{
@@ -533,10 +557,12 @@ button {
      color: #2b3436;
      font-size: 20px;
      margin-left: 0px;
+     
+    
 }
 
 .details_bt a{
-    width: 40%;
+    width: 50%;
     float: left;
     font-size: 20px;
     color: #fefefe;
@@ -545,7 +571,7 @@ button {
     padding: 10px 0px;
     margin-top: 15px;
     margin-bottom: 10px;
-    margin-left: 30%;
+    margin-left: 25%;
 }
 
 .details_bt a{ color:#fefefe; }
@@ -560,16 +586,32 @@ input.email-bt::placeholder {
 }
 
 .images_2{
-     width: 100%;
+    position: relative; 
+    width: 350px;
+     height:220px;
      float: left;
      text-align: center;
+     border: 0px solid #3c3c3c7b;
+     overflow: hidden;
+
+
+     
 }
+
+.images_2 img{
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      width: auto;
+      height: 200px;
+      transform: translateX(-50%) translateY(-50%);
+  }
 
 .images_Wertykulator{
     width: 100%;
     float: left;
     text-align: center;
-    margin-top: -1.5px;
+
 }
 .ride_section{
      width: 100%;
@@ -599,9 +641,12 @@ input.email-bt::placeholder {
 }
 
 .image_3{
-     width: 100%;
+    display: block;
+    width: 100%;
      float: left;
-     object-position: top;
+    text-align: center;
+     
+
 }
 
 .cabe_text {
@@ -645,16 +690,48 @@ input.email-bt::placeholder {
     color: #f43131;
    
 }
+.warunki{
+height: auto;
+position: relative;
+display: block;
 
+}
+
+.info_bt{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info_bt a{
+position: relative;
+
+
+    font-size: 18px;
+    color: #fefefe;
+    background-color: #f8ca11;
+    text-align: center;
+    padding: 10px 20px;
+
+
+}
+
+.info_bt a{ color:#fefefe; }
+.info_bt a:hover{     
+    color: #fff;
+    background: #000;
+
+}
 .book_bt a{
-    width: 20%;
-    float: left;
+    float:left;
+    display: block;
+    width: 40%;
     font-size: 18px;
     color: #fefefe;
     background-color: #f8ca11;
     text-align: center;
     padding: 10px 0px;
     margin-top: 30px;
+
 }
 
 .book_bt a{ color:#fefefe; }
@@ -869,16 +946,58 @@ table.Datasheet td, th {
   table.Price_table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
-    margin-top: 80px;
+    width: 98%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    
 }
-table.Price_table td, th {
+caption{
+    caption-side: top;
+    color: #f43131;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+table.Price_table th {
     border: 1px solid #dddddd;
     text-align: center;
     padding: 8px;
+    width: 20%;
+    background-color:#fecf3d ;
   }
-  table.Price_table tr:nth-child(odd) {
+table.Price_table td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    width: 20%;
+  }
+  /*table.Price_table tr:nth-child(odd) {
     background-color: #fecf3d;
+  }
+  */
+  table.Transport_table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 80px;
+}
+  table.Transport_table th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    width: 20%;
+    background-color: #fecf3d;
+  }
+  table.Transport_table td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    width: 20%;
+  }
+  table.Transport_table tr:nth-child(odd) {
+    background-color: #dddddd;
   }
 
 #main_slider a.carousel-control-prev {

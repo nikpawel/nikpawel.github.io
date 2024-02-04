@@ -17,7 +17,8 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <!-- style css -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
-
+<!-- dropdown css -->
+<link rel="stylesheet" type="text/css" href="css/dropdown.css">
 <!-- Responsive-->
 <link rel="stylesheet" href="css/responsive.css">
 <!-- fevicon -->
@@ -37,18 +38,26 @@
   <div id="index.html" class="header_section">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6 col-lg-3">
-          <div class="logo"><a href="index.html"><img src="images/logo_M.png"></a></div>
+        <div class="col-9 col-sm-6 col-lg-3 col-xl-3">
+          <div class="logo"><a href="index.html"><img src="images/logo_M.png" alt="Logo"></a></div>
         </div>
-        <div class="col-sm-6 col-lg-9">
+        <div class="col-3 col-sm-6 col-lg-9 col-xl-9">
           <div class="menu_text">
             <ul>
                 <li><a href="#main_slider">Start</a></li>                                                    
                 <li><a href="oNas/index.html">O nas</a></li>
-                <li><a href="#tools">Narzędzia</a></li>
+                <li class="dropdown">
+                  <a href="javascript:void(0)" onclick="location.href='#tools';">Narzędzia &#11167;</a>
+                  <div class="dropdown-content">
+                    <a href="Rębak/index.html">Rębak</a>
+                    <a href="Wertykulator/index.html">Wertykulator</a>
+                    <a href="Naświetlacz/index.html">Naświetlacz</a>
+                  </div>
+                </li>
                 <li><a href="#oferta">Oferta</a></li>
                 <li><a href="Regulamin/index.html">Regulamin</a></li>
                 <li><a href="#contact">Kontakt</a></li>
+                
                 <div id="myNav" class="overlay">
                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                   <div class="overlay-content">
@@ -56,11 +65,14 @@
                     <a href="oNas/index.html">O nas</a>
                     <a href="#tools">Narzędzia</a>
                     <a href="#oferta">Oferta</a>
+                    <a href="Transport/index.html">Transport</a>
                     <a href="Regulamin/index.html">Regulamin</a>
                     <a href="#contact">Kontakt</a>
                   </div>
                 </div>
-              <span  style="font-size:33px;cursor:pointer; color: #9b4444;" onclick="openNav()"><img src="images/toggle-menu.png" class="toggle_menu"></span>
+                <div class="toggle_menu">
+              <span  onclick="openNav()"><img src="images/toggle-menu.png" alt="menu"></span>
+              </div>
             </ul> 
           </div> 
         </div>
@@ -76,7 +88,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row">
-              <div class="col-md-6 col-lg-12 ">
+              <div class="col-sm-12 ">
                 <h1 class="Banner_Title"> Witaj <span style="color: #f43131;">Majsterkowiczu</span>!</h1>
                 <div class="Welcome_area">
                   <p class="Banner_Text"> Cieszymy się, że nas odwiedziłeś! Niezależnie od tego, czy jesteś domowym <span style="color: #f43131; font-weight: bold;">Majsterkowiczem</span>, 
@@ -85,7 +97,7 @@
                   <h2 class="Banner_Text"> Zastanawiasz się jakie narzędzie wybrać? A może nie wiesz czy wybrany sprzęt spełni Twoje oczekiwania? <br>
                                           <span style="color: #f43131; font-weight: bold;">Zadzwoń</span> a odpowiemy na wszystkie
                                            Twoje pytania: </h2>
-                    <div class="col-md-6 col-lg-6 offset-lg-3">                    
+                    <div class="col-md-12 col-lg-6 offset-lg-3">                    
                       <div class="Call_bt"><a href="tel:792-076-296"><span style="color: #f43131; text-decoration:underline; font-weight: bold;">+48 792 076 296</span></a></div>                                                
                     </div>
                 </div>
@@ -107,33 +119,45 @@
             <div class="col-sm-4">
               <div class="taxi_main">
                 <div class="round_1">01</div>
-                <h2 class="carol_text">Rozdrabniacz do gałęzi</h2>
+                <div class="Header_text">Rozdrabniacz do gałęzi</div>
                 <p class="reader_text">od<br>
-                  200 zł / doba<br> 
+                  <span style="color: #f43131; font-weight: bold;">260 zł / doba</span><br> 
                   <span style="font-size: 12px;">Cena zawiera 23% Vat</span> </p>
-                <div class="images_2"><a href="Rębak/index.html"><img src="images/Cedrus/Cedrus_Main_Icone.png"></a></div>
+</span>
+                <div class="images_2">
+                  <a href="Rębak/index.html"><img src="images/Cedrus/Cedrus_Main_Icone.png"  alt="Rębak"></a>
+                </div>
+
                 <div class="details_bt"><a href="Rębak/index.html">Zobacz więcej</a></div>
+
               </div>
             </div>
             <div class="col-sm-4">
               <div class="taxi_main">
                 <div class="round_1">02</div>
-                <h2 class="carol_text">Wertykulator</h2>
+                <h2 class="Header_text">Wertykulator</h2>
                 <p class="reader_text">od<br>
-                  100 zł / doba<br> 
+                  <span style="color: #f43131; font-weight: bold;">120 zł / doba</span><br> 
                   <span style="font-size: 12px;">Cena zawiera 23% Vat</span> </p>
-                <div class="images_Wertykulator"><a href="Wertykulator/index.html"><img src="images/wb384rb_ok.jpg"></a></div>
+                <div class="images_2">
+                  <a href="Wertykulator/index.html"><img src="images//Wertykulator/wb384rb_ok.png" alt="Wertykulator"></a>
+                </div>
                 <div class="details_bt"><a href="Wertykulator/index.html">Zobacz więcej</a></div>
               </div>
             </div>
             <div class="col-sm-4">
               <div class="taxi_main">
                 <div class="round_1">03</div>
-                <h2 class="carol_text">TBD</h2>
-                <p class="reader_text">opis1<br> 
-                opis2 </p>
-                <div class="images_2"><img src="images/img-2.png"></a></div>
+                <h2 class="Header_text">Naświetlacz</h2>
+                <p class="reader_text">od<br> 
+                  <span style="color: #f43131; font-weight: bold;">5 zł / doba</span><br> 
+                  <span style="font-size: 12px;">Cena zawiera 23% Vat</span> </p>
+                <div class="images_2">
+                  <a href="Naświetlacz/index.html"><img src="images/Naświetlacz/1.jpg" alt="Naświetlacz LED"></a>
+                </div>
+                <div class="details_bt"><a href="Naświetlacz/index.html">Zobacz więcej</a></div>
               </div>
+
             </div>
             
           </div>
@@ -157,7 +181,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
-            <div class="image_3"><img src="images/handyman_new.jpg"></div>
+            <div class="image_3"><img src="images/handyman_new.jpg" alt="Dla kogo?"></div>
           </div>
           <div class="col-sm-8">
             <h1 class="cabe_text">Dla kogo?</h1>
@@ -174,6 +198,9 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-8">
+            <div class="d-sm-none">
+              <div class="image_3"><img src="images/calculation_new1.jpg" alt="Ceny najmu"></div>
+            </div>
             <h1 class="secure_text">Ceny najmu</h1>
             <p class="long_text_2">Zdajemy sobie sprawę, jak istotna jest przejrzystość i uczciwe podejście w kwestii cen najmu.
                Nasze zasady cenowe zostały stworzone z myślą o każdym kliencie - oto, dlaczego warto skorzystać z naszych usług:
@@ -195,14 +222,16 @@
             
           </div>
           <div class="col-sm-4">
-            <div class="image_3"><img src="images/calculation_new.jpg"></div>
+            <div class="d-none d-sm-block">
+            <div class="image_3"><img src="images/calculation_new1.jpg" alt="Ceny najmu"></div>
+            </div>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
-            <div class="image_3"><img src="images/Male_axe_new.jpg"></div>
+            <div class="image_3"><img src="images/Male_axe_new.jpg" alt="Dodatkowe uslugi"></div>
           </div>
           <div class="col-sm-8">
             <h1 class="cabe_text">Dodatkowe usługi</h1>
@@ -215,7 +244,7 @@
                                 taką usługą <span style="color: #f43131; font-weight: bold;">daj nam koniecznie znać</span>! 
                                 Z chęcią odpowiemy jakie mamy aktualnie możliwości.
                               </p>
-            <div class="book_bt"><a href="#">Transport</a></div>
+            <div class="book_bt"><a href="Transport/index.html">Transport</a></div>
             
           </div>
         </div>
@@ -223,6 +252,9 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-8">
+            <div class="d-sm-none">
+              <div class="image_3"><img src="images/direction_new.jpg" alt="Ceny najmu"></div>
+            </div>
             <h1 class="secure_text">Dlaczego my?</h1>
             <p class="long_text_2">Co sprawia, że powinieneś zaufać wypożyczalni majstruj<span style="color: #f43131; font-weight: bold;">MY</span>.pl? 
               <ul class="Price_List">
@@ -251,7 +283,9 @@
             
           </div>
           <div class="col-sm-4">
-            <div class="image_3"><img src="images/direction_new.jpg"></div>
+            <div class="d-none d-sm-block">
+              <div class="image_3"><img src="images/direction_new.jpg" alt="Dlaczego my?"></div>
+            </div>          
           </div>
         </div>
       </div>
@@ -275,13 +309,13 @@
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3">
               <h2 class="account_text">Kontakt</h2>
-              <div class="image-icon"><img src="images/fb-icon.png"><span class="fb_text"><a href="tel: 792076296">+48 792-076-296</a></span></div>           
-              <div class="image-icon"><img src="images/instagram-icon.png"><span class="fb_text"><a href="#">biuro@majstrujmy.pl</a></span></div>
+              <div class="image-icon"><img src="images/fb-icon.png" alt="fb"><span class="fb_text"><a href="tel: 792076296">+48 792-076-296</a></span></div>           
+              <div class="image-icon"><img src="images/instagram-icon.png" alt="Insta"><span class="fb_text"><a href="#">biuro@majstrujmy.pl</a></span></div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-2">
               <h2 class="account_text">Znajdź nas</h2>
-              <div class="image-icon"><img src="images/fb-icon.png"><span class="fb_text"><a href="#">Facebook</a></span></div>           
-              <div class="image-icon"><img src="images/instagram-icon.png"><span class="fb_text"><a href="#">Instagram</a></span></div>
+              <div class="image-icon"><img src="images/fb-icon.png" alt="fb"><span class="fb_text"><a href="#">Facebook</a></span></div>           
+              <div class="image-icon"><img src="images/instagram-icon.png" alt="Insta"><span class="fb_text"><a href="#">Instagram</a></span></div>
             </div>
           </div>
         </div>
