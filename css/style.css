@@ -852,6 +852,14 @@ position: relative;
 .fb_text a{ color: #fffcf4; }
 .fb_text a:hover{ color: #fecf3d; }
 
+.contact_text {
+    font-size: 12pt;
+    color: #ebebeb;
+
+}
+
+.contact_text a{ color: #fffcf4; }
+.contact_text a:hover{ color: #fecf3d; }
 
 .adderess_text {
     width: 100%;
